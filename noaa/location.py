@@ -13,4 +13,4 @@ def get_list_of_cities(token, min_date):
 
 
 def get_city_information(token, min_date, city):
-    return filter(lambda x: "New York" in x["name"], get_list_of_cities(token, min_date))
+    return filter(lambda x: city in x["name"], get_list_of_cities(token, min_date))
