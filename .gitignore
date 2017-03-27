@@ -138,3 +138,5 @@ fabric.properties
 *.DS_Store
 .gitignore
 .idea/
+
+test.py
