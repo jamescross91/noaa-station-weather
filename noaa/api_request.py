@@ -1,12 +1,13 @@
 import unirest
 import logging
 
+
 def paginated_get_request(
         url=None,
         headers=None,
         params=None,
         max_result_size=5000,
-        default_fetch_size=500,
+        default_fetch_size=1000,
 ):
     accumulated_results = []
     params["limit"] = default_fetch_size
