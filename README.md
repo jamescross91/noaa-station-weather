@@ -1,8 +1,8 @@
-#NOAA Station Weather
+# NOAA Station Weather
 
 A small set of utility functions for fetching weather station data from weather stations in a given city.  Leverages the [NOAA Climate Data Online API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2#gettingStarted)
 
-###Usage
+### Usage
 
 Firstly you need to register for an API token from the [token request page](https://www.ncdc.noaa.gov/cdo-web/token).
 
